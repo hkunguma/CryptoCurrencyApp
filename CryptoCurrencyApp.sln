@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCuttingLayer", "CrossCuttingLayer", "{4BE6726C-DE09-409A-BCAC-26C36B68C2F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{F0A1A138-6C7C-4D3C-8963-74735A1C3D0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationLayer", "IntegrationLayer", "{063137E1-FCD7-472A-B2A4-95BD477A987E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoCurrencyApi", "CryptoCurrencyApi\CryptoCurrencyApi.csproj", "{B0E4065B-B957-49A3-B58C-533D3AC3AC69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoCurrencyApi.CrossCuttingLayer", "CryptoCurrencyApi.CrossCuttingLayer\CryptoCurrencyApi.CrossCuttingLayer.csproj", "{3DA0F588-B674-4F38-AD8D-F9725C80D9B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoCurrencyApi.DAL.EF", "CryptoCurrencyApi.DAL.EF\CryptoCurrencyApi.DAL.EF.csproj", "{729D0BF8-E554-4B80-A10F-D99E8C2EC5B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoCurrencyApi.IntegrationLayer.CoinbaseLib", "CryptoCurrencyApi.IntegrationLayer.CoinbaseLib\CryptoCurrencyApi.IntegrationLayer.CoinbaseLib.csproj", "{787BAFB7-969F-459E-8011-F419477FC9A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E4065B-B957-49A3-B58C-533D3AC3AC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E4065B-B957-49A3-B58C-533D3AC3AC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E4065B-B957-49A3-B58C-533D3AC3AC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E4065B-B957-49A3-B58C-533D3AC3AC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA0F588-B674-4F38-AD8D-F9725C80D9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA0F588-B674-4F38-AD8D-F9725C80D9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA0F588-B674-4F38-AD8D-F9725C80D9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA0F588-B674-4F38-AD8D-F9725C80D9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729D0BF8-E554-4B80-A10F-D99E8C2EC5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729D0BF8-E554-4B80-A10F-D99E8C2EC5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729D0BF8-E554-4B80-A10F-D99E8C2EC5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729D0BF8-E554-4B80-A10F-D99E8C2EC5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787BAFB7-969F-459E-8011-F419477FC9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787BAFB7-969F-459E-8011-F419477FC9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787BAFB7-969F-459E-8011-F419477FC9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787BAFB7-969F-459E-8011-F419477FC9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DA0F588-B674-4F38-AD8D-F9725C80D9B7} = {4BE6726C-DE09-409A-BCAC-26C36B68C2F0}
+		{729D0BF8-E554-4B80-A10F-D99E8C2EC5B6} = {F0A1A138-6C7C-4D3C-8963-74735A1C3D0B}
+		{787BAFB7-969F-459E-8011-F419477FC9A4} = {063137E1-FCD7-472A-B2A4-95BD477A987E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C226F97-1031-4C6A-BFCF-66289A3EDBAC}
+	EndGlobalSection
+EndGlobal
