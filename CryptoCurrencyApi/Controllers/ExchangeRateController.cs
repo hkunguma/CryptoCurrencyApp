@@ -35,7 +35,14 @@ namespace CryptoCurrencyApi.Controllers
         [HttpGet]
         public async Task<IActionResult> Get(AllowedCurrencyEnum currency)
         {
+            if (!Enum.IsDefined(typeof(AllowedCurrencyEnum), currency))
+                return BadRequest($"Currency {currency.ToString()} is not valid");
+
             var result = await GetExchangeRate(currency.ToString());
+
+            if (result == null)
+                return NotFound(currency);
+
             return Ok(result);
         }
 
@@ -68,7 +75,6 @@ namespace CryptoCurrencyApi.Controllers
                 _repository.Insert(coinbase);
                 _repository.Save();
             }
-
 
             return exchangeRateResult;            
         }

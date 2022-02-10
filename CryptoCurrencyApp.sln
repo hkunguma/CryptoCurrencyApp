@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoCurrencyApi.DAL.EF", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoCurrencyApi.IntegrationLayer.CoinbaseLib", "CryptoCurrencyApi.IntegrationLayer.CoinbaseLib\CryptoCurrencyApi.IntegrationLayer.CoinbaseLib.csproj", "{787BAFB7-969F-459E-8011-F419477FC9A4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoCurrencyApi.Tests", "CryptoCurrencyApi.Tests\CryptoCurrencyApi.Tests.csproj", "{D7890618-8A41-4591-8AC1-6BD4BBBFA7A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{787BAFB7-969F-459E-8011-F419477FC9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787BAFB7-969F-459E-8011-F419477FC9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787BAFB7-969F-459E-8011-F419477FC9A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7890618-8A41-4591-8AC1-6BD4BBBFA7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7890618-8A41-4591-8AC1-6BD4BBBFA7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7890618-8A41-4591-8AC1-6BD4BBBFA7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7890618-8A41-4591-8AC1-6BD4BBBFA7A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
